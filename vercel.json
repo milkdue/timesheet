@@ -9,10 +9,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/index.py"
-    },
-    "headers": {                                                                                                                              
-      "Access-Control-Allow-Origin": "*"                                                                                                      
+      "dest": "api/index.py",
+      "headers": {                                                                                                                              
+        "Access-Control-Allow-Origin": "*"                                                                                                      
+      }
     }
   ]
 }
